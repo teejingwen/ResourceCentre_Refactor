@@ -14,7 +14,8 @@ public class Item {
 	public String toString() {
 		
 		// Write your codes here
-		String iteminfo = String.format("%-10s %-30s %-10s %-10s", getAssetTag(), description, showAvailability(isAvailable), dueDate);
+		String iteminfo = String.format("%-10s %-30s %-10s %-10s", getAssetTag(), description, 
+				showAvailability(isAvailable), dueDate);
 		
 		return iteminfo;
 	}
